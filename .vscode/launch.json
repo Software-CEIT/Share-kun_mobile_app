@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ShareKun (dev)",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--dart-define=ENV=dev"]
+        },
+        {
+            "name": "ShareKun (uat)",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--dart-define=ENV=dev"]
+        },
+         {
+            "name": "ShareKun (prod)",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--dart-define=ENV=dev"]
+        },
+    ]
+}
